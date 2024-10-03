@@ -10,7 +10,6 @@ Welcome to the Book Manager API, a RESTful application built with Django and Dja
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
 - [Testing the API](#testing-the-api)
-- [License](#license)
 
 ## Features
 
@@ -115,7 +114,7 @@ You can test the API endpoints using tools like curl, Postman, or any REST clien
   curl -X GET http://localhost:8000/api/books/1/
 
 
-- **RDelete a book**:
+- **Delete a book**:
   ```bash
   curl -X DELETE http://localhost:8000/api/books/1/
 
